@@ -28,18 +28,18 @@ Blogs Link : https://cdli-gh.github.io/blog/gsoc20/search/index
 ## Objectives Accomplished
 
 1. Extend authorization/authentication system    
-   A. ByPassing 2FA ​(TwoFactorAuthentication)  
-   B. Setting up Role based Access System.
-   C. Strong Password checker.
-   D. Implement Password Retrieval.
-   E. Fix ‘/logout’
-   F. Making Account Inactive (After inactivity period more than 6 months).
+   - ByPassing 2FA ​(TwoFactorAuthentication)
+   - Setting up Role based Access System.
+   - Strong Password checker.
+   - Implement Password Retrieval.
+   - Fix ‘/logout’
+   - Making Account Inactive (After inactivity period more than 6 months).
 2. Simple Search
 3. Advanced Search
 4. Search funtionality 
-   A. Search Settings 
-   B. Filters
-   C. Expanded and Compact View
+   - Search Settings 
+   - Filters
+   - Expanded and Compact View
 4. RocketChat Integration
 
 ## Contributions
