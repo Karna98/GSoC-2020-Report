@@ -45,6 +45,9 @@ The project focuses on:
    - Making Account Inactive (After inactivity period more than 6 months).
 2. Simple Search
 3. Advanced Search
+
+   <img src="assets/demo/Advanced_Search.gif" width="800" height="450">
+
 4. Search funtionality 
    - Search Settings 
    - Filters
