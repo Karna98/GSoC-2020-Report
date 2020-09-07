@@ -43,11 +43,11 @@ The project focuses on:
       
       - *Issue/s:* 
 
-            Users were able to bypass Two Factor Authentication which is major security concern. 
+         Users were able to bypass Two Factor Authentication which is major security concern. 
 
       - *Solution:*
       
-            This issue was solved by forcing user to verify 2FA during login or setup 2FA during registration.
+         This issue was solved by forcing user to verify 2FA during login or setup 2FA during registration.
 
       <center>
 
@@ -68,18 +68,18 @@ The project focuses on:
 
       - *Outcome/s:* 
 
-            1. The authentication process is made more secure
-            2. 2FA is made mandatory for user accounts.
+        1. The authentication process is made more secure
+        2. 2FA is made mandatory for user accounts.
 
    - **Setting up Role based Access System.**
 
       - *Issue/s:*
 
-            Setting up role based access.
+         Setting up role based access.
 
       - *Solution:*
       
-            User are assigned different roles according to which respectively functionality can be accessed. Since the access was too granular, the efficient method was to check if the requested fuctionality can be accessed based on roles assigned to user.
+         User are assigned different roles according to which respectively functionality can be accessed. Since the access was too granular, the efficient method was to check if the requested fuctionality can be accessed based on roles assigned to user.
     
             Psudo Code:
 
@@ -102,46 +102,46 @@ The project focuses on:
 
       - *Outcome/s:* 
 
-            Role based access was successfully set up.
+         Role based access was successfully set up.
 
    - **Strong Password checker.**
 
       - *Issue/s:*
 
-            To implement a password checker to make password harder to crack and secure.
+         To implement a password checker to make password harder to crack and secure.
 
       - *Solution:*
       
-            Implemented password checker by checking it against previously used password and most commonly used passwords.
+         Implemented password checker by checking it against previously used password and most commonly used passwords.
 
       - *Outcome/s:* 
 
-            Password checker implemented to set up more secure password.
+         Password checker implemented to set up more secure password.
 
    - **Implement Password Retrieval.**
 
       - *Issue/s:*
 
-            No password retrieval functionality present.
+         No password retrieval functionality present.
 
       - *Solution:*
       
-            Implemented password retrieval functionality with additional 2FA security layer.
+         Implemented password retrieval functionality with additional 2FA security layer.
 
       - *Outcome/s:* 
 
-            1. Password retrieval functionality implemented.
-            2. 2FA verification added before changing password using retrieval link.
+         1. Password retrieval functionality implemented.
+         2. 2FA verification added before changing password using retrieval link.
 
    - **Fix ‘/logout’**
       
       - *Issue/s:*
 
-            Users can add ‘/logout’ to the base URL and the logged in user gets log out.  
+         Users can add ‘/logout’ to the base URL and the logged in user gets log out.  
 
       - *Solution:*
       
-            Previously, the user was able to logout using the GET REQUEST. This possesses a security threat which is fixed by accepting only logout POST REQUEST.
+         Previously, the user was able to logout using the GET REQUEST. This possesses a security threat which is fixed by accepting only logout POST REQUEST.
 
       <center>
 
@@ -154,7 +154,7 @@ The project focuses on:
 
       - *Outcome/s:* 
 
-            Logout restricted to POST requests. 
+         Logout restricted to POST requests. 
 
    - **Making Account Inactive (After inactivity period more than 6 months).**
 
@@ -162,7 +162,7 @@ The project focuses on:
 
    - *Issue/s:*
 
-         Upgrade current Simple search to ElasticSearch based search.
+      Upgrade current Simple search to ElasticSearch based search.
 
    <center>
 
@@ -175,15 +175,15 @@ The project focuses on:
 
    - *Outcome/s:* 
 
-         1. Implemented ElasticSearch based Simple Search.
-         2. Supports Pagination.
-         3. 10x times faster than previous Simple Search.  
+      1. Implemented ElasticSearch based Simple Search.
+      2. Supports Pagination.
+      3. 10x times faster than previous Simple Search.  
 
 3. ### Advanced Search
 
    - *Issue/s:*
 
-         Optimize current Advanced Search Queries.
+      Optimize current Advanced Search Queries.
 
    <center>
 
@@ -196,11 +196,11 @@ The project focuses on:
 
    - *Outcome/s:* 
 
-         1. Re-implemented Advacned Search from scratch.
-         2. Expanded ElasticSearch support for Advanced Search.
-         3. Added filter support for Advacned Search.
-         4. Caching set of results to fetch next set of results.
-         5. Able to retrive 0.3 million results within minutes.
+      1. Re-implemented Advacned Search from scratch.
+      2. Expanded ElasticSearch support for Advanced Search.
+      3. Added filter support for Advacned Search.
+      4. Caching set of results to fetch next set of results.
+      5. Able to retrive 0.3 million results within minutes.
 
 
 4. ### Search funtionality 
@@ -208,7 +208,7 @@ The project focuses on:
       
       - *Issue/s:*
 
-            Modifying search results page based on the Search Settings set for filters and results per page.
+         Modifying search results page based on the Search Settings set for filters and results per page.
 
       <center>
 
@@ -221,13 +221,13 @@ The project focuses on:
 
       - *Outcome/s:*
          
-            Search Settings is reflected in the search results page for both Simple and Advanced Search.
+         Search Settings is reflected in the search results page for both Simple and Advanced Search.
 
    - **Filters**
 
       - *Issue/s:*
 
-            To develop functionality for interface that allow users to filter search results quickly based on filter values.
+         To develop functionality for interface that allow users to filter search results quickly based on filter values.
 
       <center>
 
@@ -240,13 +240,13 @@ The project focuses on:
 
       - *Outcome/s:*
          
-            Implemented filter functionality successfully.
+         Implemented filter functionality successfully.
 
    - **Expanded and Compact View**
 
       - *Issue/s:*
 
-            Users must be able to view results in expanded and compact version with all information displayed properly
+         Users must be able to view results in expanded and compact version with all information displayed properly
 
       <center>
 
@@ -259,7 +259,7 @@ The project focuses on:
 
       - *Outcome/s:*
          
-            Integrated and pre-processed data according to requested search result view.
+         Integrated and pre-processed data according to requested search result view.
 
 5. ### RocketChat Integration
 
@@ -267,7 +267,7 @@ The project focuses on:
 
    - *Outcome/s*
 
-         RocketChat can now be deployed on CDLI server for CDLI Developers Community. 
+      RocketChat can now be deployed on CDLI server for CDLI Developers Community. 
 
 ## Deliverables
 
