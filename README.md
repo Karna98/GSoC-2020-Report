@@ -43,11 +43,11 @@ The project focuses on:
       
       - *Issue/s:* 
 
-         Users were able to bypass Two Factor Authentication which is major security concern. 
+         Users were able to bypass Two Factor Authentication, which is a security issue. 
 
       - *Solution:*
       
-         This issue was solved by forcing user to verify 2FA during login or setup 2FA during registration.
+         Issue solved by forcing the user to verify 2FA during login or setup 2FA during registration.
 
       <center>
 
@@ -75,11 +75,11 @@ The project focuses on:
 
       - *Issue/s:*
 
-         Setting up role based access.
+         To set up role-based access.
 
       - *Solution:*
       
-         User are assigned different roles according to which respectively functionality can be accessed. Since the access was too granular, the efficient method was to check if the requested fuctionality can be accessed based on roles assigned to user.
+         User is assigned different roles according to which functionality can be accessed. Since the access was too granular, the efficient method was to check if the requested functionality can be accessed based on roles assigned to the user.
     
             Psudo Code:
 
@@ -102,21 +102,17 @@ The project focuses on:
 
       - *Outcome/s:* 
 
-         Role based access was successfully set up.
+         Set up Role-based access successfully.
 
    - **Strong Password checker.**
 
       - *Issue/s:*
 
-         To implement a password checker to make password harder to crack and secure.
-
-      - *Solution:*
-      
-         Implemented password checker by checking it against previously used password and most commonly used passwords.
+         To implement a password checker to make the password harder to crack and secure.
 
       - *Outcome/s:* 
 
-         Password checker implemented to set up more secure password.
+         Password checker implemented to set up a more secure password.
 
    - **Implement Password Retrieval.**
 
@@ -126,7 +122,7 @@ The project focuses on:
 
       - *Solution:*
       
-         Implemented password retrieval functionality with additional 2FA security layer.
+         Implemented forgot password functionality with additional 2FA security layer.
 
       - *Outcome/s:* 
 
@@ -137,11 +133,11 @@ The project focuses on:
       
       - *Issue/s:*
 
-         Users can add ‘/logout’ to the base URL and the logged in user gets log out.  
+         Users can add ‘/logout’ to the base URL resulting user gets logged out.  
 
       - *Solution:*
       
-         Previously, the user was able to logout using the GET REQUEST. This possesses a security threat which is fixed by accepting only logout POST REQUEST.
+         Previously, the user was able to logout using the GET Request, which possesses a security threat. Fixed by accepting only logout POST REQUEST.
 
       <center>
 
@@ -158,6 +154,13 @@ The project focuses on:
 
    - **Making Account Inactive (After inactivity period more than 6 months).**
 
+      - *Issue/s:*
+
+         To disable user account when the user is inactive for more than 6 months.
+      - *Outcome/s:* 
+
+         Database event created to disable a user account.
+
 2. ### Simple Search
 
    - *Issue/s:*
@@ -169,7 +172,7 @@ The project focuses on:
    | Simple Search |
    | :---:	|
    | <img src="assets/demo/gifs/Simple_Search.gif" width="800" height="450"> |
-   | 1. When user tries to search **india** in **Collection** search category. <br> 2. Then user try to search using regex expression **india\*** in same search category. |
+   | 1. When the user tries to search **india** in **Collection** search category. <br> 2. When the user tries to search using regex expression **india\*** in the same search category. |
 
    </center>
 
@@ -190,7 +193,7 @@ The project focuses on:
    | Advanced Search |
    | :---:	|
    | <img src="assets/demo/gifs/Advanced_Search.gif" width="800" height="450"> |
-   | 1. When the user tries to search `collection =`*`india*`* AND `material =`*`limestone`* using Advanced Search. <br> 2. Then the user modify current Advanced Search by updating `material =`*`clay`*. <br> 3. Once again the user modify current Advanced Search by `author =`*`Widell`*.  |
+   | 1. When the user tries to search `collection =`*`india*`* AND `material =`*`limestone`* using Advanced Search. <br> 2. Then the user modifies current Advanced Search by updating `material =`*`clay`*. <br> 3. Once again the user modifies current Advanced Search by `author =`*`Widell`*.  |
 
    </center>
 
@@ -208,7 +211,7 @@ The project focuses on:
       
       - *Issue/s:*
 
-         Modifying search results page based on the Search Settings set for filters and results per page.
+         To modify the search results page based on the Search Settings set for filters and results per page.
 
       <center>
 
@@ -221,13 +224,13 @@ The project focuses on:
 
       - *Outcome/s:*
          
-         Search Settings is reflected in the search results page for both Simple and Advanced Search.
+         Search Settings reflected in the search results page for both Simple and Advanced Search.
 
    - **Filters**
 
       - *Issue/s:*
 
-         To develop functionality for interface that allow users to filter search results quickly based on filter values.
+         To develop functionality for an interface that allows users to filter search results quickly based on filter values.
 
       <center>
 
@@ -246,7 +249,7 @@ The project focuses on:
 
       - *Issue/s:*
 
-         Users must be able to view results in expanded and compact version with all information displayed properly
+         Users must be able to view search results in the expanded and compact version with all information displayed according to view.
 
       <center>
 
@@ -259,7 +262,7 @@ The project focuses on:
 
       - *Outcome/s:*
          
-         Integrated and pre-processed data according to requested search result view.
+         Support for Expanded and Compact view added.
 
 5. ### RocketChat Integration
 
@@ -267,7 +270,7 @@ The project focuses on:
 
    - *Outcome/s*
 
-      RocketChat can now be deployed on CDLI server for CDLI Developers Community. 
+      RocketChat deployed on the CDLI server for CDLI Developers Community. 
 
 ## Deliverables
 
@@ -276,9 +279,9 @@ The project focuses on:
       |\#|Objectives|Associated Deliverables|Status|Remarks|
       |:---:|---|---|:---:|---|  
       |1   	| Authentication (2FA)|Established more secure login by enforcing 2FA. | ✔️ |  
-      |2   	| Authorization Setup (Role Based) | Successfully setup role based access. | ✔️ |    
+      |2   	| Authorization Setup (Role-Based) | Successfully set up role-based access. | ✔️ |    
       |3   	| Simple Search | Integrating Elastic Search for fast and accurate search results. | ✔️ |  
-      |4   	| Advance Search Optimization | Optimized advanced search queries. | ✔️ |   
+      |4   	| Advanced Search Optimization | Optimized advanced search queries. | ✔️ |   
       |5   	| Search Result display | a. Expanded & Compact result.<br>b. Stats for Search Result.<br>c. Search Filters.<br>d. Search Setting Page. | ✔️ |  *Stats for Search Result* yet to be addressed.  |
 
 2. ### Additional Objectives
@@ -286,7 +289,7 @@ The project focuses on:
       |\#|Objectives|Associated Deliverables|issue(s)|Remarks|  
       |---|---|---|:---:|---|  
       |1   	| Search Settings | A separate setting page for displaying search page and search result according to configuration. |  ✔️ |  
-      |2   	| Rocket.Chat Setup | Setting up and deploying Rocket.Chat for CDLI Developers. |✔️|  
+      |2   	| RocketChat Setup | Setting up and deploying RocketChat for CDLI Developers. |✔️|  
 
 
 ## Contributions
@@ -297,15 +300,16 @@ The project focuses on:
 
 ## To Do (Post GSoC)
 
-* Add filter support for Simple Search: .
-* Documentation (Modules which are yet to be documented).
+* Add filter support for Simple Search.
+* Documentation (Modules to be documented).
 
 ## Acknowledgement
 
-* I would like to thank my mentor [Émilie Pagé-Perron](mailto:epp@ucla.edu) for helping and guiding me and also other mentees for collaboration throughout the GSoC journey!
+* I would like to thank my mentor [Émilie Pagé-Perron](mailto:epp@ucla.edu) for helping and guiding throughout the GSoC journey! 
+* Thanks to other mentees and mentors for collaboration. 
+* I am thankful to Google Summer Of Code for providing me with an opportunity to work with CDLI.
 
-* I am thankful to Google Summer Of Code for providing me an opportunity to work with CDLI.
+## Final Presentation Video 
 
-## Demo Video 
+[![Google Summer of Code 2020 - Improving CDLI Framework](http://img.youtube.com/vi/wxynBCpReBw/0.jpg)](https://youtu.be/wxynBCpReBw "Google Summer of Code 2020 - Improving CDLI Framework")
 
-Will be updated Soon.
