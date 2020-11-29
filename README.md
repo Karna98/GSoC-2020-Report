@@ -4,7 +4,7 @@
 
 ![GSoC with CDLI](assets/banner.png)
 
-<h2 align="center"><i>Project Report on "<a href="https://summerofcode.withgoogle.com/projects/#4558611868549120">Improving CDLI Framework</a>" </i> </h2>
+<h2 align="center"><i>Project Report on "<a href="https://summerofcode.withgoogle.com/archive/2020/projects/5840077927743488/">Improving CDLI Framework</a>" </i> </h2>
 
 ## About the project
 
